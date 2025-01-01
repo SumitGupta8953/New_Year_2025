@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     submitBtn.addEventListener('click', () => {
         const name = nameInput.value.trim();
         if (name) {
-            const message = `🫰🫰😊\n${name}\n 🤗🫰🫰 " Happy New Year to you and your family from &hearts;Hemraj Singh." | " May this new year bring you health, happiness, and success in all you do! 🌼💪🎊"`;
+            const message = `🫰🫰😊\n${name}\n 🤗🫰🫰 " Happy New Year, dear ! i blessing May 2025 be filled with moments that make you smile every single day.🎊"`;
 
             greeting.innerHTML = message.split(' ').map(word => `<span class="word">${word}</span>`).join(' ');
             greeting.style.opacity = '1';
